@@ -7,7 +7,9 @@ $\phi(10) = \phi(2)\phi(5) = 4$ <br>
 $\phi(5) = 4 = \{1, 2, 3, 4\}$ <br>
 $\phi(2) = 1 = \{1\}$ <br>
 <br>
+
 ![Scheme](Scheme.png)
+
 <br>
 > 5 numbers share the '2' divisor with whole group <br>
 > 2 numbers share the '5' divisor with whole group <br>
