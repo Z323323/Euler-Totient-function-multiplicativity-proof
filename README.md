@@ -16,7 +16,6 @@ $\phi(2) = 1 = \{1\}$ <br>
 - 2 numbers share the '5' divisor with whole group
 <p>Since the two conditions above coexist, the group can be divided 5 + 2 times (by 5 + 2 numbers). <br>
 From this reasoning we have to remove 1 element because '10' is considered twice (2(5), 5(2)) then: <br>
-
 $5 * 2 - \(5 + 2 - 1\) = 4$ <br>
 $\phi(10) = 4 = \{1, 3, 7, 9\}$ <br>
 </p>
@@ -24,8 +23,8 @@ $\phi(10) = 4 = \{1, 3, 7, 9\}$ <br>
 ## Formalization
 
 <p>We take 2 primes m,n, then: <br>
-**$\phi(mn) = m * n - \(m + n -1\) $** <br>
-**$m * n - m - n + 1 = \(m - 1\)\(n - 1\) $ _** <br>
+$\phi(mn) = m * n - \(m + n -1\)$ <br>
+$m * n - m - n + 1 = \(m - 1\)\(n - 1\)$ _ <br>
 where <br>
 $\phi(m) = m - 1$ <br>
 $\phi(n) = n - 1$ <br>
