@@ -14,7 +14,7 @@ $\phi(2) = 1 = \{1\}$ <br>
 
 - 5 numbers share the '2' divisor with whole group
 - 2 numbers share the '5' divisor with whole group
-<p>Since the two conditions above coexist, the group can be divided 5 + 2 times (by 5 + 2 numbers). <br>
+<p>Since the two conditions above coexist, there are 5 + 2 numbers which share either '2' or '5' as divisor. <br>
 From this reasoning we have to remove 1 element because '10' is considered twice (2(5), 5(2)) then: <br>
 $5 * 2 - (5 + 2 - 1) = 4$ <br>
 $\phi(10) = 4 = \{1, 3, 7, 9\}$ <br>
