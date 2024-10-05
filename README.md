@@ -9,7 +9,7 @@ $\phi(5) = 4 = \{1, 2, 3, 4\}$ <br>
 $\phi(2) = 1 = \{1\}$ <br>
 </p>
 
-![Scheme](Scheme.png)
+![Scheme](Scheme2.png)
 
 
 - 5 numbers share the '2' divisor with whole group
