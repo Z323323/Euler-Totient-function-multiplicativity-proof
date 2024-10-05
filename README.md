@@ -25,7 +25,7 @@ $\phi(10) = 4 = \{1,3,7,9\}$
 
 ## Formalization
 We take 2 primes m,n, then: <br>
-**$\phi(mn) = m * n - (m + n -1) = m * n -m -n +1 = (m - 1)(n - 1) _$** <br>
+**$\phi(mn) = m * n - (m + n -1) = m * n -m -n +1 = (m - 1)(n - 1)$_** <br>
 where <br>
 $\phi(m) = m - 1$ <br>
 $\phi(n) = n - 1$ <br>
