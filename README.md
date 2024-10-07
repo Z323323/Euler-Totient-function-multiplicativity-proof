@@ -29,3 +29,12 @@ where <br>
 $\phi(m) = m - 1$ <br>
 $\phi(n) = n - 1$ <br>
 </p>
+
+## Further refinition
+<p> The scheme above looks a little bit messy, and seems like it does not follow a structured rule, let's refine it taking another example.
+</p>
+## New. ex. $\phi(3*7)
+<p> Before delving into the nex example, let's refine the scheme above to make it more structured and understand my point.<br>
+
+  
+</p>
