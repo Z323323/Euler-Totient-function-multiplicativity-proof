@@ -69,7 +69,7 @@ $\phi(n) = n - 1$
 
 ![2_5](2*5_fixed.png)
   
-  We can see our first $5$ non-coprime element is not positioned in the last line but we could simply swap that element with $[2(4)+1]$ and the game would be done. To get my initial idea (now that I'm correcting errors around I think this wasn't even necessary but I'll leave it here) I thought that considering only the rightmost column and lowest line and remove them was an intuitive solution (plus adding $1$ because of the intersection of them), which it is indeed, but the error I made was thinking that failing at making such construction could invalidate the previous formalization (which holds nonetheless).
+We can see that $[2(2) + 1 = 5]$ is not positioned in the last line but we could simply swap that element with $[2(4)+1]$ and the game would be done.
   
 Considering $3 \cdot 7$ we know that there will be $3$ elements which share $7$ as co-factor and so even if the structured form proposed doesn't place them in the last line it will be always possible to swap them.
   
