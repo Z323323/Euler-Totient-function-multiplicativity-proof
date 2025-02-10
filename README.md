@@ -30,7 +30,9 @@ $5 \cdot 2 - (5 + 2 - 1) = 4$<br>
 $->$<br>
 $\phi(10) = 4$
 
-This is easily formalizable because for all pair of primes $m, n$, their multiplication will be the only element considered twice.
+This is easily formalizable because for all pair of primes $m, n$, their multiplication will be the only element considered twice. It's also worth noting that the previous removal can be easily considered an addition, that is, if we follow the previous picture structure, we can see that $10$ will be removed twice if we consider the removal of the rightmost column and lowest line (which was my initial intuition). Indeed
+
+$5 \cdot 2 - (5 + 2 - 1) = 5 \cdot 2 - 5 - 2 + 1$
 
 </p>
 
