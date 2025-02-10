@@ -4,7 +4,7 @@
 
 ### Definition
 
-$\phi(n)$ is defined as the function which calculates the number of numbers which are less than **and** coprime with $n$, that is, evey number $< n$ which doesn't share cofactors with $n$.
+$\phi(n)$ is defined as the function which calculates the number of numbers which are less than **and** coprime with $n$, that is, evey number $< n$ which doesn't share cofactors with $n$. We could have the exact same definition by implying that $\phi(n)$ is the number of coprimes of $n$ which are $\leq n$, and since $n$ is never coprime with itself it follows trivially that we are computing the number of coprimes of $n$ which are $< n$.
 
 ### Example
 
@@ -12,10 +12,11 @@ $\phi(n)$ is defined as the function which calculates the number of numbers whic
   
   Let's start with an example with $2$ simple primes. It looks stupid but it's easily formalizable and works for every pair of primes.
   
-$2*5 = 10$ <br>
-$\phi(10) = \phi(2)\phi(5) = 4$ <br>
-$\phi(5) = 4 = \\{ 1, 2, 3, 4 \\}$ <br>
-$\phi(2) = 1 = \\{ 1 \\}$
+$10 = 2 \cdot 5$<br>
+$\phi(5) = |\\{ 1, 2, 3, 4 \\}| = 4$<br>
+$\phi(2) = |\\{ 1 \\}| = 1$<br>
+$->$<br>
+$\phi(10) = |\\{1, 3, 7, 9 \\}| = \phi(2)\phi(5) = 1 \cdot 4 = 4$ <br>
 </p>
 
 ![Scheme](Scheme2.png)
@@ -26,8 +27,9 @@ $\phi(2) = 1 = \\{ 1 \\}$
 <p>
   Since the two conditions above coexist, there are $5 + 2$ numbers which share either $2$ or $5$ as divisor. From this reasoning we have to remove $1$ element because $10$ is considered twice $(2(5), 5(2))$ then
   
-$5 \cdot 2 - (5 + 2 - 1) = 4$ <br>
-$\phi(10) = 4 = \\{ 1, 3, 7, 9 \\}$
+$5 \cdot 2 - (5 + 2 - 1) = 4$<br>
+$->$<br>
+$\phi(10) = 4$
 
 </p>
 
@@ -35,7 +37,8 @@ $\phi(10) = 4 = \\{ 1, 3, 7, 9 \\}$
 
 <p>We take 2 primes $m,n$ then
   
-$\phi(mn) = m \cdot n - (m + n - 1)$ <br>
+$\phi(mn) = m \cdot n - (m + n - 1)$<br>
+$->$<br>
 $m \cdot n - m - n + 1 = (m - 1)(n - 1)$
 
 where
@@ -52,7 +55,7 @@ $\phi(n) = n - 1$
 
 ### Example 2: $\phi(3 \cdot 7)$
 
-<p> Before delving into the next example, let's refine the scheme above to make it more structured and understand my point.<br></p>
+<p> Before delving the next example, let's refine the scheme above to make it more structured and understand my point.<br></p>
 
 ![2_5](2*5_fixed.png)
 
