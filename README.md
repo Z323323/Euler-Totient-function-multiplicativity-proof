@@ -22,8 +22,8 @@ $\phi(10) = |\\{1, 3, 7, 9 \\}| = \phi(2)\phi(5) = 1 \cdot 4 = 4$ <br>
 ![Scheme](Scheme2.png)
 
 
-- $5$ numbers share the $2$ divisor with whole group
-- $2$ numbers share the $5$ divisor with whole group
+- $5$ numbers share the $2$ divisor with $10$
+- $2$ numbers share the $5$ divisor with $10$
 <p>
   Since the two conditions above coexist, there are $5 + 2$ numbers which share either $2$ or $5$ as divisor. From this reasoning we have to remove $1$ element because $10$ is considered twice $(2(5), 5(2))$ then
   
@@ -59,7 +59,7 @@ $\phi(n) = n - 1$
 
 ![2_5](2*5_fixed.png)
 
-<p>Here the structure follows a structured reasoning, but our first $5$ non-coprime element is not positioned in the last line, does this breaks our proof? Here we could simply swap that element with $[2(4)+1]$ and the game would be done. But what would happen when we have more than $1$ co-factor i.e in $3 \cdot 7$? We know that there will be $3$ elements which share $7$ as co-factor, does this break our formalization? Because having $2$ elements to remove around and not removing the last line would mean to rebuild the formalization.<br>
+<p>Here the structure follows a structured reasoning, but our first $5$ non-coprime element is not positioned in the last line, does this break our proof? Here we could simply swap that element with $[2(4)+1]$ and the game would be done. But what would happen when we have more than $1$ co-factor, for example considering $3 \cdot 7$? We know that there will be $3$ elements which share $7$ as co-factor, does this break our formalization? Because having $2$ elements to remove around and not removing the last line would mean to rebuild the formalization.<br>
 It turns out that following the structure of the schemes proposed, it's always possible to swap every co-factor in the last line, breaking the structured format of the scheme but preserving formalization.<br>
 Taken $a, b$ where $b > a$ there will be $a$ elements which share the $b$ cofactor, this means that they will always be positionable in the last line (of $a$ elements). This will be even more clear looking at the $3 \cdot 7$ example. <br></p>
 
