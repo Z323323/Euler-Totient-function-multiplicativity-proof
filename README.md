@@ -1,6 +1,10 @@
 # Totient multiplicativity proof for primes
 
-**$\phi(xy) = \phi(x)\phi(y) $**
+**$\phi(xy) = \phi(x)\phi(y)$**
+
+### Definition
+
+$\phi(n)$ is defined as the function which calculates the number of numbers which are less than **and** coprime with $n$, that is, evey number $< n$ which doesn't share cofactors with $n$.
 
 ### Example
 
