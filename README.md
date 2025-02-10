@@ -4,7 +4,7 @@
 
 ### Definition
 
-$\phi(n)$ is defined as the function which calculates the number of numbers which are less than **and** coprime with $n$, that is, evey number $< n$ which doesn't share cofactors with $n$. We could have the exact same definition by implying that $\phi(n)$ is the number of coprimes of $n$ which are $\leq n$, and since $n$ is never coprime with itself it follows trivially that we are computing the number of coprimes of $n$ which are $< n$.
+$\phi(n)$ is defined as the function which calculates the number of coprimes of $n$ which are $< n$, that is, every number $< n$ which doesn't share cofactors with $n$. We could have the exact same definition by implying that $\phi(n)$ is the number of coprimes of $n$ which are $\leq n$, and since $n$ is never coprime with itself it follows trivially that we are computing the number of coprimes of $n$ which are $< n$.
 
 ### Example
 
