@@ -17,25 +17,28 @@ $\phi(5) = |\\{ 1, 2, 3, 4 \\}| = 4$<br>
 $\phi(2) = |\\{ 1 \\}| = 1$<br>
 $->$<br>
 $\phi(10) = |\\{1, 3, 7, 9 \\}| = \phi(2)\phi(5) = 1 \cdot 4 = 4$ <br>
-</p>
 
 ![Scheme](Scheme2.png)
 
 
 - $5$ numbers share the $2$ divisor with $10$
 - $2$ numbers share the $5$ divisor with $10$
-<p>
-  Since the two conditions above coexist, there are $5 + 2$ numbers which share either $2$ or $5$ as divisor. From this reasoning we have to remove $1$ element because $10$ is considered twice $(2(5), 5(2))$ then
+
+From these we have to remove $1$ element because $10$ is considered twice $(2(5), 5(2))$ then
   
 $5 \cdot 2 - (5 + 2 - 1) = 4$<br>
 $->$<br>
 $\phi(10) = 4$
 
+This is easily formalizable because for all pair of primes $m, n$, their multiplication will be the only element considered twice.
+
 </p>
 
 ## Formalization
 
-<p>We take 2 primes $m,n$ then
+<p>
+  
+  We take 2 primes $m,n$ then
   
 $\phi(mn) = m \cdot n - (m + n - 1)$<br>
 $->$<br>
@@ -50,19 +53,30 @@ $\phi(n) = n - 1$
 
 ### Further refinition
 
-<p> The scheme above looks a little bit messy, and seems like it does not follow a structured rule, let's refine it taking another example.
+<p> 
+  
+  The scheme above looks a little bit messy, and seems like it does not follow a structured rule, let's refine it taking another example.
+
 </p>
 
 ### Example 2: $\phi(3 \cdot 7)$
 
-<p> Before delving the next example, let's refine the scheme above to make it more structured and understand my point.<br></p>
+<p> 
+  
+  Before delving the next example, let's refine the scheme above to make it more structured and understand my point.
 
 ![2_5](2*5_fixed.png)
-
-<p>Here the structure follows a structured reasoning, but our first $5$ non-coprime element is not positioned in the last line, does this break our proof? Here we could simply swap that element with $[2(4)+1]$ and the game would be done. But what would happen when we have more than $1$ co-factor, for example considering $3 \cdot 7$? We know that there will be $3$ elements which share $7$ as co-factor, does this break our formalization? Because having $2$ elements to remove around and not removing the last line would mean to rebuild the formalization.<br>
-It turns out that following the structure of the schemes proposed, it's always possible to swap every co-factor in the last line, breaking the structured format of the scheme but preserving formalization.<br>
-Taken $a, b$ where $b > a$ there will be $a$ elements which share the $b$ cofactor, this means that they will always be positionable in the last line (of $a$ elements). This will be even more clear looking at the $3 \cdot 7$ example. <br></p>
+  
+  We can see our first $5$ non-coprime element is not positioned in the last line but we could simply swap that element with $[2(4)+1]$ and the game would be done. To get my initial idea (now that I'm correcting errors around I think this wasn't even necessary but I'll leave it here) I thought that considering only the rightmost column and lowest line and remove them was an intuitive solution (plus adding $1$ because of the intersection of them), which it is indeed, but the error I made was thinking that failing at making such construction could invalidate the previous formalization (which holds nonetheless).
+  
+Considering $3 \cdot 7$ we know that there will be $3$ elements which share $7$ as co-factor and so even if the structured form proposed doesn't place them in the last line it will be always possible to swap them.
+  
+Taken $a, b$ where $b > a$ there will be $a$ elements which share the $b$ cofactor, this means that they will always be positionable in the last line (of $a$ elements).
 
 ![3_7](3*7.png)
+
+</p>
+
+
   
 
